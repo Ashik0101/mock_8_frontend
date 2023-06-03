@@ -1,0 +1,60 @@
+#container {
+  width: 18%;
+  margin: auto;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  /* padding-top: 50px; */
+}
+#container > div {
+  margin-bottom: 20px;
+}
+
+#title > div {
+  width: 100%;
+  margin: auto;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  align-items: center;
+  background-color: lightblue;
+}
+#title > div > div {
+  cursor: pointer;
+  width: 100%;
+  /* height: 100%; */
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-body {
+  margin: auto;
+}
+.input-body > div {
+  margin-bottom: 10px;
+}
+#login-btn-div {
+  display: none;
+}
+#button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#button-container > div {
+  width: 170px;
+  height: 35px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+
+  align-items: center;
+}
+.btn {
+  cursor: pointer;
+}

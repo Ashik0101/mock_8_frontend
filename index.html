@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN | Signup Page</title>
+  </head>
+  <link rel="stylesheet" href="./styles/login.css" />
+  <body>
+    <div id="container">
+      <div id="title">
+        <div>
+          <div class="signup">Signup</div>
+          <div class="login">Login</div>
+        </div>
+      </div>
+      <div class="input-container">
+        <div class="input-body">
+          <div>
+            <label for="email">Your Email :</label>
+          </div>
+          <div>
+            <input id="email" type="email" required placeholder="email..." />
+          </div>
+
+          <div>
+            <label for="password">Your Password :</label>
+          </div>
+          <div>
+            <input
+              id="password"
+              type="password"
+              required
+              placeholder="password..."
+            />
+          </div>
+          <div class="confirm_password">
+            <label for="confirm_password">Confirm Password :</label>
+          </div>
+          <div class="confirm_password">
+            <input
+              id="confirm_pass"
+              type="password"
+              required
+              placeholder="confirm password..."
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="button-container">
+        <div class="btn" id="signup-btn-div">Signup</div>
+        <div class="btn" id="login-btn-div">Login</div>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts/login.js"></script>
+</html>
